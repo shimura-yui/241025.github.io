@@ -1,0 +1,128 @@
+/* フォント設定 */
+@font-face {
+    font-family: 'TachibanaFont2024';
+    src: url('TachibanaFont2024.ttf') format('truetype');
+}
+
+/* 基本のスタイル */
+body {
+    font-family: 'TachibanaFont2024', Arial, sans-serif;
+    background-color: #f0faff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 20pt; /* 文字サイズを10pt大きく */
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-color: #7FD6E2;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #4fc3f7;
+}
+
+header h1 {
+    font-size: 32pt; /* 10pt大きく */
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21pt; /* 10pt大きく */
+}
+
+/* メインコンテンツのスタイル */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* セクションのタイトルスタイル */
+h2 {
+    color: #00796b;
+    font-size: 28pt; /* 10pt大きく */
+    border-bottom: 2px solid #4fc3f7;
+    padding-bottom: 5px;
+}
+
+/* アルス・アルマルの説明セクション */
+#description {
+    margin-bottom: 30px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-row img {
+    width: 45%;
+    border: 2px solid #7FD6E2;
+    border-radius: 10px;
+}
+
+/* ソーシャルメディアリンクのスタイル */
+#social-media {
+    margin-bottom: 30px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a img {
+    width: 50px; /* アイコンのサイズ */
+    height: 50px;
+}
+
+/* シーンセクションと歌ってみたセクションのスタイル */
+.scene {
+    margin-bottom: 30px;
+}
+
+.video-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.video-wrapper iframe {
+    width: 60%;
+    max-width: 600px;
+    height: 315px;
+    border: 2px solid #7FD6E2;
+    border-radius: 10px;
+}
+
+.caption {
+    font-size: 20pt; /* 10pt大きく */
+    color: #555;
+    width: 40%;
+}
+
+/* フッターのスタイル */
+footer {
+    background-color: #7FD6E2;
+    text-align: center;
+    padding:
