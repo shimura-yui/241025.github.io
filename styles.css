@@ -31,20 +31,21 @@ header h1 {
     margin: 0;
 }
 
-.scene{
+.scene {
     text-align: center;
     background: #a2e3ec;
     padding: 20pt;
     margin: 20pt;
     border-radius: 10pt;
 }
+
 nav ul {
     list-style: none;
     padding: 0;
     margin: 10px 0 0 0;
     display: flex;
-    flex-wrap: wrap; /* リンクが折り返すように設定 */
-    justify-content: center; /* 中央揃えに設定 */
+    flex-wrap: wrap; /* リンクが折り返す */
+    justify-content: center; /* 中央揃え */
 }
 
 nav ul li {
@@ -56,9 +57,8 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 21pt;
-    white-space: nowrap; /* テキストが折り返されないように設定 */
+    white-space: nowrap; /* テキストが折り返されないように */
 }
-
 
 /* メインコンテンツのスタイル */
 main {
@@ -68,8 +68,8 @@ main {
 
 /* セクションのタイトルスタイル */
 h2 {
-    text-align: center ;
-    color: #086776;  /* 見出しの色を変更 */
+    text-align: center;
+    color: #086776;  /* 見出しの色 */
     font-size: 28pt; 
     border-bottom: 2px solid #4fc3f7;
     padding-bottom: 5px;
@@ -85,7 +85,8 @@ h2 {
     font-size: 23pt;
     color: black;
     text-decoration: none;
-    margin-bottom: 3pt;
+    display: inline-flex;
+    align-items: center;
 }
 
 #description p:first-of-type {
@@ -94,11 +95,17 @@ h2 {
 
 #official-intro:hover {
     color: #324cac;
-    text-decoration: none;  /* リンクのホバー時の色を変更 */
+    text-decoration: none;  /* リンクのホバー時の色 */
+}
+
+.small-image {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px; /* テキストと画像の間のスペース */
 }
 
 .image-row {
-    text-align: center ;
+    text-align: center;
     position: relative;
 }
 
@@ -119,11 +126,12 @@ h2 {
     display: block; /* ホバー時に表示 */
 }
 
-#social-media{
-    text-align: center ;
+#social-media {
+    text-align: center;
 }
+
 .youtube-ratio iframe {
-    width:100%;
+    width: 100%;
     aspect-ratio: 16 / 9;
 }
 
@@ -148,6 +156,31 @@ footer {
     padding: 10px 0;
     color: #fff;
     border-top: 2px solid #4fc3f7;
+}
+
+/* 黛灰リンクのホバー時の色変更 */
+.mayuzumi-link {
+    text-decoration: none;
+    color: #086776;
+}
+.mayuzumi-link:hover {
+    color: #324cac;
+}
+
+
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 
