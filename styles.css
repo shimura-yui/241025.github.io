@@ -31,6 +31,7 @@ header h1 {
     margin: 0;
 }
 
+/* シーンのスタイル */
 .scene {
     text-align: center;
     background: #a2e3ec;
@@ -39,6 +40,7 @@ header h1 {
     border-radius: 10pt;
 }
 
+/* ナビゲーションメニューのスタイル */
 nav ul {
     list-style: none;
     padding: 0;
@@ -81,7 +83,7 @@ h2 {
     margin-bottom: 30px;
 }
 
-#official-intro {
+#official-intro a {
     font-size: 23pt;
     color: black;
     text-decoration: none;
@@ -89,11 +91,7 @@ h2 {
     align-items: center;
 }
 
-#description p:first-of-type {
-    margin-top: 0; /* 最初の段落の上部マージンを削除 */
-}
-
-#official-intro:hover {
+#official-intro a:hover {
     color: #324cac;
     text-decoration: none;  /* リンクのホバー時の色 */
 }
@@ -126,6 +124,7 @@ h2 {
     display: block; /* ホバー時に表示 */
 }
 
+/* ソーシャルメディアのスタイル */
 #social-media {
     text-align: center;
 }
@@ -135,6 +134,7 @@ h2 {
     aspect-ratio: 16 / 9;
 }
 
+/* グリッドコンテナのスタイル */
 .grid-container {
     display: grid;
     grid-gap: 20px;
@@ -150,6 +150,7 @@ h2 {
     margin: 0 15pt;
 }
 
+/* フッターのスタイル */
 footer {
     background-color: #7FD6E2;
     text-align: center;
@@ -167,8 +168,7 @@ footer {
     color: #324cac;
 }
 
-
-
+/* 閉じるボタンのスタイル */
 .close-button {
     color: #aaa;
     float: right;
@@ -182,5 +182,3 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
-
-
